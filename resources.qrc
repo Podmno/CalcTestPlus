@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>Resources/mini.png</file>
+        <file>Resources/close.png</file>
+        <file>Resources/icon.png</file>
+        <file>Resources/qq_pic_merged_1581163853771.jpg</file>
+        <file>Resources/Extra.png</file>
+    </qresource>
+</RCC>

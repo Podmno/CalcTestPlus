@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Template</class>
+ <widget class="QDialog" name="Template">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>选择模板</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>519</x>
+     <y>339</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消 (C)</string>
+   </property>
+   <property name="shortcut">
+    <string>C</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;请选择模板&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="type1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>661</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>小学生测试</string>
+   </property>
+   <property name="description">
+    <string>共 10 道题目，正整数 50 以内的加减法，不限时间， 60 分及格。</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="type2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>661</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>小数运算测试</string>
+   </property>
+   <property name="description">
+    <string>共 10 道题目，含负数的小数的加减运算，不限时间， 60 分及格。</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="type3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>661</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777209</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>速算练习</string>
+   </property>
+   <property name="description">
+    <string>共 50 道题目，含负数的 100 以内的四则运算， 60 秒以内完成， 90 分及格。</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Template</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>609</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
